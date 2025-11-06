@@ -1,0 +1,17 @@
+ [
+    {
+        "image": "/p_img2.png",
+        "name": "Pink Shirt",
+        "price": "$60.00"
+    },
+    {
+        "image": "/p_img3.png",
+        "name": "Blue Shirt",
+        "price": "$70.00"
+    },
+    {
+        "image": "/p_img4.png",
+        "name": "Red Shirt",
+        "price": "$80.00"
+    }
+]

@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+DE+SAS:wght@100..400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+US+Modern:wght@100..400&display=swap");
+@import "tailwindcss";
+
+@layer base {
+  .link {
+    @apply italic font-bold text-black hover:text-blue-300;
+  }
+
+  body {
+    @apply bg-gray-100;
+  }
+}
+
+@theme {
+  --font-play: "BBH Sans Bartle", sans-serif;
+  --font-tobi: "Playwrite DE SAS", cursive;
+  --font-modern: "Playwrite US Modern", cursive;
+}
